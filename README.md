@@ -50,18 +50,16 @@ The application is divided into two main components:
    ```bash
    git clone <repository-url>
    cd football-price-prediction
+   
 2.**Install the dependencies:**
-
    ```bash
     pip install -r requirements.txt
 
 3. **Run the FastAPI server:**
-
    ```bash
     uvicorn main:app --reload
 
 4. **Run the Streamlit app:**
-
    ```bash
     streamlit run App.py
 
