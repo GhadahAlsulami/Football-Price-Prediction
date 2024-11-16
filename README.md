@@ -46,21 +46,20 @@ The application is divided into two main components:
 
 ## Setup and Running Locally
 
-1. **Clone the repository**:
+## Installation and Setup
+
+1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd football-price-prediction
-   
-2.**Install the dependencies:**
-   ```bash
-    pip install -r requirements.txt
+   cd <repository-name>
 
-3. **Run the FastAPI server:**
+2. Install required packages:
    ```bash
-    uvicorn main:app --reload
-
-4. **Run the Streamlit app:**
-   ```bash
-    streamlit run App.py
+   pip install streamlit requests
+   ```
+3. Run the app:
+  ```bash
+  streamlit run app.py
+  ```
 
 ## Enjoy using the Football Price Range Prediction app!
